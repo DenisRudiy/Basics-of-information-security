@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fe0462ad-95af-4af8-9f77-1da0c485f2c1": {
+      "ProjectGuid": "fe0462ad-95af-4af8-9f77-1da0c485f2c1",
+      "DisplayName": "lab3",
+      "ColorIndex": 0
+    },
+    "95ce6839-8d66-444c-a261-003792fe15f3": {
+      "ProjectGuid": "95ce6839-8d66-444c-a261-003792fe15f3",
+      "DisplayName": "Test",
+      "ColorIndex": 1
+    },
+    "611a44d4-b175-48fb-80e6-0a33738f47a6": {
+      "ProjectGuid": "611a44d4-b175-48fb-80e6-0a33738f47a6",
+      "DisplayName": "Program",
+      "ColorIndex": 2
+    },
+    "dc8fe35f-12bd-42b5-86d0-1c97f509cace": {
+      "ProjectGuid": "dc8fe35f-12bd-42b5-86d0-1c97f509cace",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 3
+    },
+    "c403a453-e178-4c49-a80a-b64e687c6dc4": {
+      "ProjectGuid": "c403a453-e178-4c49-a80a-b64e687c6dc4",
+      "DisplayName": "Hash",
+      "ColorIndex": 4
+    },
+    "afba9ff3-8ad8-4c63-9946-565a13104d57": {
+      "ProjectGuid": "afba9ff3-8ad8-4c63-9946-565a13104d57",
+      "DisplayName": "Password",
+      "ColorIndex": 5
+    },
+    "05cedf38-352b-482a-84fa-dd02cc8dc91f": {
+      "ProjectGuid": "05cedf38-352b-482a-84fa-dd02cc8dc91f",
+      "DisplayName": "Autentification",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "d287baaf-0a37-4943-883f-ccfbc32337e9": {
+      "ProjectGuid": "d287baaf-0a37-4943-883f-ccfbc32337e9",
+      "DisplayName": "Hash",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}

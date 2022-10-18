@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Password/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Password.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Password.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Password/1.0.0": {
+      "type": "project",
+      "path": "../Password/Password.csproj",
+      "msbuildProject": "../Password/Password.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Password >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Denis\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\!C#\\Lab_3\\lab3\\lab3.csproj",
+      "projectName": "lab3",
+      "projectPath": "D:\\!C#\\Lab_3\\lab3\\lab3.csproj",
+      "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
+      "outputPath": "D:\\!C#\\Lab_3\\lab3\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\!C#\\Lab_3\\Password\\Password.csproj": {
+              "projectPath": "D:\\!C#\\Lab_3\\Password\\Password.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
