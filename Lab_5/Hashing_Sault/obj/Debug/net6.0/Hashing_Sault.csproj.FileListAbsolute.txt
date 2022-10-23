@@ -1,0 +1,15 @@
+D:\!C#\Lab_5\Hashing_Sault\bin\Debug\net6.0\Hashing_Sault.exe
+D:\!C#\Lab_5\Hashing_Sault\bin\Debug\net6.0\Hashing_Sault.deps.json
+D:\!C#\Lab_5\Hashing_Sault\bin\Debug\net6.0\Hashing_Sault.runtimeconfig.json
+D:\!C#\Lab_5\Hashing_Sault\bin\Debug\net6.0\Hashing_Sault.dll
+D:\!C#\Lab_5\Hashing_Sault\bin\Debug\net6.0\ref\Hashing_Sault.dll
+D:\!C#\Lab_5\Hashing_Sault\bin\Debug\net6.0\Hashing_Sault.pdb
+D:\!C#\Lab_5\Hashing_Sault\obj\Debug\net6.0\Hashing_Sault.csproj.AssemblyReference.cache
+D:\!C#\Lab_5\Hashing_Sault\obj\Debug\net6.0\Hashing_Sault.GeneratedMSBuildEditorConfig.editorconfig
+D:\!C#\Lab_5\Hashing_Sault\obj\Debug\net6.0\Hashing_Sault.AssemblyInfoInputs.cache
+D:\!C#\Lab_5\Hashing_Sault\obj\Debug\net6.0\Hashing_Sault.AssemblyInfo.cs
+D:\!C#\Lab_5\Hashing_Sault\obj\Debug\net6.0\Hashing_Sault.csproj.CoreCompileInputs.cache
+D:\!C#\Lab_5\Hashing_Sault\obj\Debug\net6.0\Hashing_Sault.dll
+D:\!C#\Lab_5\Hashing_Sault\obj\Debug\net6.0\ref\Hashing_Sault.dll
+D:\!C#\Lab_5\Hashing_Sault\obj\Debug\net6.0\Hashing_Sault.pdb
+D:\!C#\Lab_5\Hashing_Sault\obj\Debug\net6.0\Hashing_Sault.genruntimeconfig.cache

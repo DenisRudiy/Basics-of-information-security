@@ -1,0 +1,15 @@
+D:\!C#\Lab_5\Sault_Variant\bin\Debug\net6.0\Sault_Variant.exe
+D:\!C#\Lab_5\Sault_Variant\bin\Debug\net6.0\Sault_Variant.deps.json
+D:\!C#\Lab_5\Sault_Variant\bin\Debug\net6.0\Sault_Variant.runtimeconfig.json
+D:\!C#\Lab_5\Sault_Variant\bin\Debug\net6.0\Sault_Variant.dll
+D:\!C#\Lab_5\Sault_Variant\bin\Debug\net6.0\ref\Sault_Variant.dll
+D:\!C#\Lab_5\Sault_Variant\bin\Debug\net6.0\Sault_Variant.pdb
+D:\!C#\Lab_5\Sault_Variant\obj\Debug\net6.0\Sault_Variant.csproj.AssemblyReference.cache
+D:\!C#\Lab_5\Sault_Variant\obj\Debug\net6.0\Sault_Variant.GeneratedMSBuildEditorConfig.editorconfig
+D:\!C#\Lab_5\Sault_Variant\obj\Debug\net6.0\Sault_Variant.AssemblyInfoInputs.cache
+D:\!C#\Lab_5\Sault_Variant\obj\Debug\net6.0\Sault_Variant.AssemblyInfo.cs
+D:\!C#\Lab_5\Sault_Variant\obj\Debug\net6.0\Sault_Variant.csproj.CoreCompileInputs.cache
+D:\!C#\Lab_5\Sault_Variant\obj\Debug\net6.0\Sault_Variant.dll
+D:\!C#\Lab_5\Sault_Variant\obj\Debug\net6.0\ref\Sault_Variant.dll
+D:\!C#\Lab_5\Sault_Variant\obj\Debug\net6.0\Sault_Variant.pdb
+D:\!C#\Lab_5\Sault_Variant\obj\Debug\net6.0\Sault_Variant.genruntimeconfig.cache

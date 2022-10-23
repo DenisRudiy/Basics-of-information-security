@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3b1a58cf-6786-4268-9259-1b5d0a4a7824": {
+      "ProjectGuid": "3b1a58cf-6786-4268-9259-1b5d0a4a7824",
+      "DisplayName": "Lab_5",
+      "ColorIndex": 0
+    },
+    "48097e65-77a5-4e75-8b68-f8894a9146df": {
+      "ProjectGuid": "48097e65-77a5-4e75-8b68-f8894a9146df",
+      "DisplayName": "Hashing_Sault",
+      "ColorIndex": 1
+    },
+    "3d7798ed-a75a-428a-85c1-4d31e786c179": {
+      "ProjectGuid": "3d7798ed-a75a-428a-85c1-4d31e786c179",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 2
+    },
+    "6663141a-4fda-402d-9c8e-a66eff41092f": {
+      "ProjectGuid": "6663141a-4fda-402d-9c8e-a66eff41092f",
+      "DisplayName": "Sault_Iteration",
+      "ColorIndex": 3
+    },
+    "83782b63-8d7c-4003-9cfa-2235b0086f27": {
+      "ProjectGuid": "83782b63-8d7c-4003-9cfa-2235b0086f27",
+      "DisplayName": "Sault_Variant",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
