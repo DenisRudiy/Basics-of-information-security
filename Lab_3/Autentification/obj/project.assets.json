@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\!C#\\Lab_3\\Autentification\\Autentification.csproj",
+      "projectUniqueName": "D:\\C#\\Lab_3\\Autentification\\Autentification.csproj",
       "projectName": "Autentification",
-      "projectPath": "D:\\!C#\\Lab_3\\Autentification\\Autentification.csproj",
+      "projectPath": "D:\\C#\\Lab_3\\Autentification\\Autentification.csproj",
       "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-      "outputPath": "D:\\!C#\\Lab_3\\Autentification\\obj\\",
+      "outputPath": "D:\\C#\\Lab_3\\Autentification\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",

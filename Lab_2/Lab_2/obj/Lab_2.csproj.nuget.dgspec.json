@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\!C#\\Lab_2\\Lab_2\\Lab_2.csproj": {}
+    "D:\\C#\\Lab_2\\Lab_2\\Lab_2.csproj": {}
   },
   "projects": {
-    "D:\\!C#\\Lab_2\\Lab_2\\Lab_2.csproj": {
+    "D:\\C#\\Lab_2\\Lab_2\\Lab_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\!C#\\Lab_2\\Lab_2\\Lab_2.csproj",
+        "projectUniqueName": "D:\\C#\\Lab_2\\Lab_2\\Lab_2.csproj",
         "projectName": "Lab_2",
-        "projectPath": "D:\\!C#\\Lab_2\\Lab_2\\Lab_2.csproj",
+        "projectPath": "D:\\C#\\Lab_2\\Lab_2\\Lab_2.csproj",
         "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "D:\\!C#\\Lab_2\\Lab_2\\obj\\",
+        "outputPath": "D:\\C#\\Lab_2\\Lab_2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\!C#\\Lab_3\\Hash\\Hash.csproj": {}
+    "D:\\C#\\Lab_3\\Hash\\Hash.csproj": {}
   },
   "projects": {
-    "D:\\!C#\\Lab_3\\Hash\\Hash.csproj": {
+    "D:\\C#\\Lab_3\\Hash\\Hash.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\!C#\\Lab_3\\Hash\\Hash.csproj",
+        "projectUniqueName": "D:\\C#\\Lab_3\\Hash\\Hash.csproj",
         "projectName": "Hash",
-        "projectPath": "D:\\!C#\\Lab_3\\Hash\\Hash.csproj",
+        "projectPath": "D:\\C#\\Lab_3\\Hash\\Hash.csproj",
         "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "D:\\!C#\\Lab_3\\Hash\\obj\\",
+        "outputPath": "D:\\C#\\Lab_3\\Hash\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",

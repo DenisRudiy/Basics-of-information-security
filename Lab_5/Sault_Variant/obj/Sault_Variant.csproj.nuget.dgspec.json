@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\!C#\\Lab_5\\Sault_Variant\\Sault_Variant.csproj": {}
+    "D:\\C#\\Lab_5\\Sault_Variant\\Sault_Variant.csproj": {}
   },
   "projects": {
-    "D:\\!C#\\Lab_5\\Sault_Variant\\Sault_Variant.csproj": {
+    "D:\\C#\\Lab_5\\Sault_Variant\\Sault_Variant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\!C#\\Lab_5\\Sault_Variant\\Sault_Variant.csproj",
+        "projectUniqueName": "D:\\C#\\Lab_5\\Sault_Variant\\Sault_Variant.csproj",
         "projectName": "Sault_Variant",
-        "projectPath": "D:\\!C#\\Lab_5\\Sault_Variant\\Sault_Variant.csproj",
+        "projectPath": "D:\\C#\\Lab_5\\Sault_Variant\\Sault_Variant.csproj",
         "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "D:\\!C#\\Lab_5\\Sault_Variant\\obj\\",
+        "outputPath": "D:\\C#\\Lab_5\\Sault_Variant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",

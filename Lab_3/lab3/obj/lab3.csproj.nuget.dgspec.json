@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\!C#\\Lab_3\\lab3\\lab3.csproj": {}
+    "D:\\C#\\Lab_3\\lab3\\lab3.csproj": {}
   },
   "projects": {
-    "D:\\!C#\\Lab_3\\lab3\\lab3.csproj": {
+    "D:\\C#\\Lab_3\\lab3\\lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\!C#\\Lab_3\\lab3\\lab3.csproj",
+        "projectUniqueName": "D:\\C#\\Lab_3\\lab3\\lab3.csproj",
         "projectName": "lab3",
-        "projectPath": "D:\\!C#\\Lab_3\\lab3\\lab3.csproj",
+        "projectPath": "D:\\C#\\Lab_3\\lab3\\lab3.csproj",
         "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "D:\\!C#\\Lab_3\\lab3\\obj\\",
+        "outputPath": "D:\\C#\\Lab_3\\lab3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\!C#\\Lab_3\\Password\\Password.csproj": {
-                "projectPath": "D:\\!C#\\Lab_3\\Password\\Password.csproj"
+              "D:\\C#\\Lab_3\\Password\\Password.csproj": {
+                "projectPath": "D:\\C#\\Lab_3\\Password\\Password.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "D:\\!C#\\Lab_3\\Password\\Password.csproj": {
+    "D:\\C#\\Lab_3\\Password\\Password.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\!C#\\Lab_3\\Password\\Password.csproj",
+        "projectUniqueName": "D:\\C#\\Lab_3\\Password\\Password.csproj",
         "projectName": "Password",
-        "projectPath": "D:\\!C#\\Lab_3\\Password\\Password.csproj",
+        "projectPath": "D:\\C#\\Lab_3\\Password\\Password.csproj",
         "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "D:\\!C#\\Lab_3\\Password\\obj\\",
+        "outputPath": "D:\\C#\\Lab_3\\Password\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",

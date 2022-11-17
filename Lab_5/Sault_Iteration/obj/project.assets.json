@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\!C#\\Lab_5\\Sault_Iteration\\Sault_Iteration.csproj",
+      "projectUniqueName": "D:\\C#\\Lab_5\\Sault_Iteration\\Sault_Iteration.csproj",
       "projectName": "Sault_Iteration",
-      "projectPath": "D:\\!C#\\Lab_5\\Sault_Iteration\\Sault_Iteration.csproj",
+      "projectPath": "D:\\C#\\Lab_5\\Sault_Iteration\\Sault_Iteration.csproj",
       "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-      "outputPath": "D:\\!C#\\Lab_5\\Sault_Iteration\\obj\\",
+      "outputPath": "D:\\C#\\Lab_5\\Sault_Iteration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\!C#\\Lab_5\\Hashing_Sault\\Hashing_Sault.csproj": {}
+    "D:\\C#\\Lab_5\\Hashing_Sault\\Hashing_Sault.csproj": {}
   },
   "projects": {
-    "D:\\!C#\\Lab_5\\Hashing_Sault\\Hashing_Sault.csproj": {
+    "D:\\C#\\Lab_5\\Hashing_Sault\\Hashing_Sault.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\!C#\\Lab_5\\Hashing_Sault\\Hashing_Sault.csproj",
+        "projectUniqueName": "D:\\C#\\Lab_5\\Hashing_Sault\\Hashing_Sault.csproj",
         "projectName": "Hashing_Sault",
-        "projectPath": "D:\\!C#\\Lab_5\\Hashing_Sault\\Hashing_Sault.csproj",
+        "projectPath": "D:\\C#\\Lab_5\\Hashing_Sault\\Hashing_Sault.csproj",
         "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "D:\\!C#\\Lab_5\\Hashing_Sault\\obj\\",
+        "outputPath": "D:\\C#\\Lab_5\\Hashing_Sault\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
