@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\!C#\\lab1\\Lab_1.1\\Lab_1.1.csproj": {}
+    "C:\\C#\\lab1\\Lab_1.1\\Lab_1.1.csproj": {}
   },
   "projects": {
-    "D:\\!C#\\lab1\\Lab_1.1\\Lab_1.1.csproj": {
+    "C:\\C#\\lab1\\Lab_1.1\\Lab_1.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\!C#\\lab1\\Lab_1.1\\Lab_1.1.csproj",
+        "projectUniqueName": "C:\\C#\\lab1\\Lab_1.1\\Lab_1.1.csproj",
         "projectName": "Lab_1.1",
-        "projectPath": "D:\\!C#\\lab1\\Lab_1.1\\Lab_1.1.csproj",
-        "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "D:\\!C#\\lab1\\Lab_1.1\\obj\\",
+        "projectPath": "C:\\C#\\lab1\\Lab_1.1\\Lab_1.1.csproj",
+        "packagesPath": "C:\\Users\\ruden\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\lab1\\Lab_1.1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ruden\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

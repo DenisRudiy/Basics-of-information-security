@@ -1,0 +1,15 @@
+C:\C#\Lab_9\Lab_9\bin\Debug\net6.0\Lab_9.exe
+C:\C#\Lab_9\Lab_9\bin\Debug\net6.0\Lab_9.deps.json
+C:\C#\Lab_9\Lab_9\bin\Debug\net6.0\Lab_9.runtimeconfig.json
+C:\C#\Lab_9\Lab_9\bin\Debug\net6.0\Lab_9.dll
+C:\C#\Lab_9\Lab_9\bin\Debug\net6.0\Lab_9.pdb
+C:\C#\Lab_9\Lab_9\obj\Debug\net6.0\Lab_9.csproj.AssemblyReference.cache
+C:\C#\Lab_9\Lab_9\obj\Debug\net6.0\Lab_9.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lab_9\Lab_9\obj\Debug\net6.0\Lab_9.AssemblyInfoInputs.cache
+C:\C#\Lab_9\Lab_9\obj\Debug\net6.0\Lab_9.AssemblyInfo.cs
+C:\C#\Lab_9\Lab_9\obj\Debug\net6.0\Lab_9.csproj.CoreCompileInputs.cache
+C:\C#\Lab_9\Lab_9\obj\Debug\net6.0\Lab_9.dll
+C:\C#\Lab_9\Lab_9\obj\Debug\net6.0\refint\Lab_9.dll
+C:\C#\Lab_9\Lab_9\obj\Debug\net6.0\Lab_9.pdb
+C:\C#\Lab_9\Lab_9\obj\Debug\net6.0\Lab_9.genruntimeconfig.cache
+C:\C#\Lab_9\Lab_9\obj\Debug\net6.0\ref\Lab_9.dll

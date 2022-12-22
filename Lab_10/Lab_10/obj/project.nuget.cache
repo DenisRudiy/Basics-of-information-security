@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IG1h6l+G2meIue4zf2oUFEYvcCc8TIh9Cw63FNmXysnzKSIWU5sFoN35TOO14WBKVD0YUzpQ2jvEa5mrnz8f+Q==",
+  "success": true,
+  "projectFilePath": "C:\\C#\\Lab_10\\Lab_10\\Lab_10.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ruden\\.nuget\\packages\\nlog\\5.1.0\\nlog.5.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

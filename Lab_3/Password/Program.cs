@@ -57,7 +57,7 @@ namespace lab3
                 }
                 if (eighth == array.Length)
                 {
-                    break; //finished
+                    break; //кінець
                 }
 
                 string attempt = array[eighth] + array[seventh] + array[sixth] + array[fifth]
@@ -73,7 +73,7 @@ namespace lab3
             }
             Console.WriteLine("Attempts to crack: " + cracks);
 
-            // password is 20192020
+            // пароль -  20192020
 
 
             static byte[] ComputeHashMd5(byte[] messageInArray)

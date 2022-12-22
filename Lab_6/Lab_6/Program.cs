@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Security.Cryptography;
 using System.IO;
 
-namespace PW_6._1
+namespace PW_6
 {
     internal class Program
     {

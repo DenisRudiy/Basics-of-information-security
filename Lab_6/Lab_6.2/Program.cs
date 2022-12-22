@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Security.Cryptography;
 
-namespace  Lab_6._2
+namespace PW_6_2
 {
     internal class Program
     {
@@ -16,7 +16,6 @@ namespace  Lab_6._2
             string message;
             char sw;
 
-            string path = "../../../files/";
             string path_key = "../../../files/key.txt";
             string path_iv = "../../../files/iv.txt";
             string path_enc_message = "../../../files/enc_message.txt";
@@ -25,18 +24,18 @@ namespace  Lab_6._2
             byte[] dec_message;
             byte[] key = new byte[32];
             byte[] iv = new byte[16];
-            int itr = 200000;
+            int itr = 220000;
 
-            Console.Write("c - create new key and vector\n");
-            Console.Write("s - show key and vector\n");
-            Console.Write("e - encrypt message\n");
-            Console.Write("d - decrypt message\n");
-            Console.Write(" -> ");
+            Console.Write("1 - create new key and vector\n");
+            Console.Write("2 - show key and vector\n");
+            Console.Write("3 - encrypt message\n");
+            Console.Write("4 - decrypt message\n");
+            Console.Write(" : ");
             sw = Convert.ToChar(Console.ReadLine());
             
             switch (sw)
             {
-                case 'c':
+                case '1':
                     Console.Write("Enter password: ");
                     password = Console.ReadLine();
 
@@ -56,7 +55,7 @@ namespace  Lab_6._2
                     Console.WriteLine("DONE");
                     break;
 
-                case 'e':
+                case '2':
                     Console.Write("Enter message: ");
                     message = Console.ReadLine();
 
@@ -80,7 +79,7 @@ namespace  Lab_6._2
                     Console.WriteLine("AES Encrypt: " + Convert.ToBase64String(enc_message));
                     break;
 
-                case 'd':
+                case '3':
 
                     using (var read = new FileStream(path_key, FileMode.Open))
                     {
@@ -101,7 +100,7 @@ namespace  Lab_6._2
 
                     break;
 
-                case 's':
+                case '4':
                     using (var read = new FileStream(path_key, FileMode.Open))
                     {
                         read.Read(key, 0, key.Length);
@@ -120,12 +119,6 @@ namespace  Lab_6._2
                 default:
                     break;
             }
-
-
-
-
-
-
         }
     }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Security.Cryptography;
 using System.IO;
 
-namespace PW_7_8._2
+namespace PW_7_8
 {
     internal class Program
     {
@@ -27,16 +27,16 @@ namespace PW_7_8._2
 
             char sw;
 
-            Console.Write("c - create new key and vector\n");
-            Console.Write("s - show key and vector\n");
-            Console.Write("e - encrypt message\n");
-            Console.Write("d - decrypt message\n");
-            Console.Write(" -> ");
+            Console.Write("1 - create new key and vector\n");
+            Console.Write("2 - show key and vector\n");
+            Console.Write("3 - encrypt message\n");
+            Console.Write("4 - decrypt message\n");
+            Console.Write("  ");
             sw = Convert.ToChar(Console.ReadLine());
 
             switch (sw)
             {
-                case 'g':
+                case '1':
                     Console.Write("Write your surname: ");
                     surname = Console.ReadLine();
                     pathToXMLFile = pathToXMLFolder + surname + pkey_ext;
@@ -44,7 +44,7 @@ namespace PW_7_8._2
                     Console.WriteLine("DONE");
                     break;
 
-                case 'r':
+                case '2':
                     try
                     {
                         Console.Write("Write your surname: ");
@@ -67,7 +67,7 @@ namespace PW_7_8._2
                     }
                     break;
 
-                case 'e':
+                case '3':
                     try
                     {
                         var files = Directory.GetFiles(pathToXMLFolder);
@@ -106,7 +106,7 @@ namespace PW_7_8._2
                     }
                     break;
 
-                case 'd':
+                case '4':
                     try
                     {
                         var files = Directory.GetFiles(pathToFolderEncMsgs);

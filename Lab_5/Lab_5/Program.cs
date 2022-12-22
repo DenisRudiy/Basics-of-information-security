@@ -27,15 +27,13 @@ namespace lab5
 
             // ініціалізація солі(ключів)
             byte[] saltMD5, saltSHA1, saltSHA256, saltSHA384, saltSHA512, passwordInArray, passwordCheckInArray;
-
-            // 10 значень із кроком 50'000; перше значення = номер варіанта * 10'000;
             int numOfRounds0 = 220000;
 
 
             // ініціалізація користувача
-            Console.Write(" Enter your username ->  ");
+            Console.Write(" Enter your username: ");
             username = Console.ReadLine();                          // логін
-            Console.Write(" Enter your password ->  ");
+            Console.Write(" Enter your password: ");
             password = Console.ReadLine();                          // пароль
             Console.WriteLine();
             Console.WriteLine();
@@ -84,9 +82,9 @@ namespace lab5
 
                     // початок аутентифікації
                     Console.WriteLine(" Starting user authentification ");
-                    Console.Write(" Enter your username ->  ");
+                    Console.Write(" Enter your username: ");
                     usernameCheck = Console.ReadLine();               // логін
-                    Console.Write(" Enter your password ->  ");
+                    Console.Write(" Enter your password: ");
                     passwordCheck = Console.ReadLine();               // пароль
                     Console.WriteLine();
 
@@ -126,10 +124,9 @@ namespace lab5
 
                     // початок аутентифікації
                     Console.WriteLine(" Starting user authentification ");
-                    Console.WriteLine(" -----------------------------------------------------------------------------------------------------------------------");
-                    Console.Write(" Enter your username ->  ");
+                    Console.Write(" Enter your username: ");
                     usernameCheck = Console.ReadLine();               // логін
-                    Console.Write(" Enter your password ->  ");
+                    Console.Write(" Enter your password: ");
                     passwordCheck = Console.ReadLine();               // пароль
                     Console.WriteLine();
 
@@ -170,9 +167,9 @@ namespace lab5
 
 
                     // початок аутентифікації
-                    Console.Write(" Enter your username ->  ");
+                    Console.Write(" Enter your username: ");
                     usernameCheck = Console.ReadLine();               // логін
-                    Console.Write(" Enter your password ->  ");
+                    Console.Write(" Enter your password: ");
                     passwordCheck = Console.ReadLine();               // пароль
                     Console.WriteLine();
 
@@ -215,9 +212,9 @@ namespace lab5
                     Console.WriteLine();
 
                     // початок аутентифікації
-                    Console.Write(" Enter your username ->  ");
+                    Console.Write(" Enter your username: ");
                     usernameCheck = Console.ReadLine();               // логін
-                    Console.Write(" Enter your password ->  ");
+                    Console.Write(" Enter your password: ");
                     passwordCheck = Console.ReadLine();               // пароль
                     Console.WriteLine();
 
@@ -258,9 +255,9 @@ namespace lab5
 
 
                     // початок аутентифікації
-                    Console.Write(" Enter your username ->  ");
+                    Console.Write(" Enter your username: ");
                     usernameCheck = Console.ReadLine();               // логін
-                    Console.Write(" Enter your password ->  ");
+                    Console.Write(" Enter your password: ");
                     passwordCheck = Console.ReadLine();               // пароль
                     Console.WriteLine();
 

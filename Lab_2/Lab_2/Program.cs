@@ -16,7 +16,7 @@ namespace lab2
             Console.Write("Your option:  ");
 
             string option = Console.ReadLine();
-            string path = "D:/C#/Lab_2/Lab_2/";
+            string path = @"C:\C#\Lab_2\Lab_2\";
 
             if (option == "1")                                                       // encryption
             {

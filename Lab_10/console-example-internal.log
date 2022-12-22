@@ -1,0 +1,16 @@
+2022-12-22 18:02:33.5246 Info Message Template Auto Format enabled
+2022-12-22 18:02:33.9948 Info Registered target FileTarget(Name=logfile)
+2022-12-22 18:02:33.9948 Info Registered target ConsoleTarget(Name=logconsole)
+2022-12-22 18:02:34.0303 Info Validating config: TargetNames=logconsole, logfile, ConfigItems=34, FilePath=C:\C#\Lab_10\Lab_10\bin\Debug\net6.0\NLog.config
+2022-12-22 18:02:34.0516 Info Configuration initialized.
+2022-12-22 18:02:34.0773 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.0.1480. Product version: 5.1.0+5e6708d4d288e03b3ddf321838ec14907016f1b8. GlobalAssemblyCache: False
+2022-12-22 18:02:34.0773 Warn Logger: Authorization configured with duplicate output to target: ConsoleTarget(Name=logconsole). LoggingRule with NamePattern='*' and Level=Trace has been skipped.
+2022-12-22 18:02:34.0831 Warn Logger: Authorization configured with duplicate output to target: ConsoleTarget(Name=logconsole). LoggingRule with NamePattern='*' and Level=Trace has been skipped.
+2022-12-22 18:02:34.0831 Warn Logger: Authorization configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Error has been skipped.
+2022-12-22 18:02:34.0831 Warn Logger: Authorization configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Fatal has been skipped.
+2022-12-22 18:02:39.3640 Warn Logger: Authorization+Protector configured with duplicate output to target: ConsoleTarget(Name=logconsole). LoggingRule with NamePattern='*' and Level=Trace has been skipped.
+2022-12-22 18:02:39.3640 Warn Logger: Authorization+Protector configured with duplicate output to target: ConsoleTarget(Name=logconsole). LoggingRule with NamePattern='*' and Level=Trace has been skipped.
+2022-12-22 18:02:39.3640 Warn Logger: Authorization+Protector configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Error has been skipped.
+2022-12-22 18:02:39.3640 Warn Logger: Authorization+Protector configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Fatal has been skipped.
+2022-12-22 18:02:47.1677 Info AppDomain Shutting down. LogFactory closing...
+2022-12-22 18:02:47.2237 Info LogFactory has been closed.

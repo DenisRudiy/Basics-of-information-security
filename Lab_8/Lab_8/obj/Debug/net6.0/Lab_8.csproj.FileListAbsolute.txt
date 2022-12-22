@@ -1,0 +1,15 @@
+C:\C#\Lab_8\Lab_8\bin\Debug\net6.0\Lab_8.exe
+C:\C#\Lab_8\Lab_8\bin\Debug\net6.0\Lab_8.deps.json
+C:\C#\Lab_8\Lab_8\bin\Debug\net6.0\Lab_8.runtimeconfig.json
+C:\C#\Lab_8\Lab_8\bin\Debug\net6.0\Lab_8.dll
+C:\C#\Lab_8\Lab_8\bin\Debug\net6.0\Lab_8.pdb
+C:\C#\Lab_8\Lab_8\obj\Debug\net6.0\Lab_8.csproj.AssemblyReference.cache
+C:\C#\Lab_8\Lab_8\obj\Debug\net6.0\Lab_8.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Lab_8\Lab_8\obj\Debug\net6.0\Lab_8.AssemblyInfoInputs.cache
+C:\C#\Lab_8\Lab_8\obj\Debug\net6.0\Lab_8.AssemblyInfo.cs
+C:\C#\Lab_8\Lab_8\obj\Debug\net6.0\Lab_8.csproj.CoreCompileInputs.cache
+C:\C#\Lab_8\Lab_8\obj\Debug\net6.0\Lab_8.dll
+C:\C#\Lab_8\Lab_8\obj\Debug\net6.0\refint\Lab_8.dll
+C:\C#\Lab_8\Lab_8\obj\Debug\net6.0\Lab_8.pdb
+C:\C#\Lab_8\Lab_8\obj\Debug\net6.0\Lab_8.genruntimeconfig.cache
+C:\C#\Lab_8\Lab_8\obj\Debug\net6.0\ref\Lab_8.dll

@@ -21,10 +21,7 @@ namespace lab5
             int saltLengthSHA512 = 64;
 
             // ініціалізація паролів та логінів
-            string username;
             string password;
-            string usernameCheck;
-            string passwordCheck;
             string variant;
 
             // ініціалізація солі(ключів)
@@ -43,16 +40,14 @@ namespace lab5
             int numOfRounds9 = 670000;
 
             // ініціалізація користувача
-            Console.Write(" Enter your username ->  ");
-            username = Console.ReadLine();                          // логін
-            Console.Write(" Enter your password ->  ");
+            Console.Write(" Enter your password: ");
             password = Console.ReadLine();                          // пароль
             Console.WriteLine();
             Console.WriteLine();
 
             passwordInArray = Encoding.Unicode.GetBytes(password);  // кладемо пароль у список
 
-            // створюємо ключі
+            // створюємо сіль
             saltMD5 = cryptoKey(saltLengthMD5);
             saltSHA1 = cryptoKey(saltLengthSHA1);
             saltSHA256 = cryptoKey(saltLengthSHA256);
@@ -62,8 +57,6 @@ namespace lab5
 
             do
             {
-                Console.WriteLine();
-                Console.WriteLine("Chose hashing algorithm:");
                 Console.WriteLine("1 - MD5");
                 Console.WriteLine("2 - SHA1");
                 Console.WriteLine("3 - SHA256");
@@ -79,6 +72,7 @@ namespace lab5
                 {
                     Console.WriteLine("Wait a bit");
                     Console.WriteLine();
+
                     // Для хешування-MD5 використовуємо різні числа
                     var Rfc0MD5 = PBKDF2.HashPassword(passwordInArray, saltMD5, numOfRounds0, saltLengthMD5);
                     var Rfc1MD5 = PBKDF2.HashPassword(passwordInArray, saltMD5, numOfRounds1, saltLengthMD5);
@@ -123,16 +117,16 @@ namespace lab5
                         PBKDF2.HashPassword(passwordInArray, saltMD5, numOfRounds9, saltLengthMD5);
                     });
 
-                    Console.WriteLine(" " + numOfRounds0 + " MD5: " + Convert.ToBase64String(Rfc0MD5));
-                    Console.WriteLine(" " + numOfRounds1 + " MD5: " + Convert.ToBase64String(Rfc1MD5));
-                    Console.WriteLine(" " + numOfRounds2 + " MD5: " + Convert.ToBase64String(Rfc2MD5));
-                    Console.WriteLine(" " + numOfRounds3 + " MD5: " + Convert.ToBase64String(Rfc3MD5));
-                    Console.WriteLine(" " + numOfRounds4 + " MD5: " + Convert.ToBase64String(Rfc4MD5));
-                    Console.WriteLine(" " + numOfRounds5 + " MD5: " + Convert.ToBase64String(Rfc5MD5));
-                    Console.WriteLine(" " + numOfRounds6 + " MD5: " + Convert.ToBase64String(Rfc6MD5));
-                    Console.WriteLine(" " + numOfRounds7 + " MD5: " + Convert.ToBase64String(Rfc7MD5));
-                    Console.WriteLine(" " + numOfRounds8 + " MD5: " + Convert.ToBase64String(Rfc8MD5));
-                    Console.WriteLine(" " + numOfRounds9 + " MD5: " + Convert.ToBase64String(Rfc9MD5));
+                    Console.WriteLine(numOfRounds0 + " MD5: " + Convert.ToBase64String(Rfc0MD5));
+                    Console.WriteLine(numOfRounds1 + " MD5: " + Convert.ToBase64String(Rfc1MD5));
+                    Console.WriteLine(numOfRounds2 + " MD5: " + Convert.ToBase64String(Rfc2MD5));
+                    Console.WriteLine(numOfRounds3 + " MD5: " + Convert.ToBase64String(Rfc3MD5));
+                    Console.WriteLine(numOfRounds4 + " MD5: " + Convert.ToBase64String(Rfc4MD5));
+                    Console.WriteLine(numOfRounds5 + " MD5: " + Convert.ToBase64String(Rfc5MD5));
+                    Console.WriteLine(numOfRounds6 + " MD5: " + Convert.ToBase64String(Rfc6MD5));
+                    Console.WriteLine(numOfRounds7 + " MD5: " + Convert.ToBase64String(Rfc7MD5));
+                    Console.WriteLine(numOfRounds8 + " MD5: " + Convert.ToBase64String(Rfc8MD5));
+                    Console.WriteLine(numOfRounds9 + " MD5: " + Convert.ToBase64String(Rfc9MD5));
                     Console.WriteLine();
                     Console.WriteLine(" Iterations <" + numOfRounds0 + ">, Elapsed Time: " + time0MD5);
                     Console.WriteLine(" Iterations <" + numOfRounds1 + ">, Elapsed Time: " + time1MD5);
@@ -197,16 +191,16 @@ namespace lab5
                         PBKDF2.HashPassword(passwordInArray, saltSHA1, numOfRounds9, saltLengthSHA1);
                     });
 
-                    Console.WriteLine(" " + numOfRounds0 + " SHA1: " + Convert.ToBase64String(Rfc0SHA1));
-                    Console.WriteLine(" " + numOfRounds1 + " SHA1: " + Convert.ToBase64String(Rfc1SHA1));
-                    Console.WriteLine(" " + numOfRounds2 + " SHA1: " + Convert.ToBase64String(Rfc2SHA1));
-                    Console.WriteLine(" " + numOfRounds3 + " SHA1: " + Convert.ToBase64String(Rfc3SHA1));
-                    Console.WriteLine(" " + numOfRounds4 + " SHA1: " + Convert.ToBase64String(Rfc4SHA1));
-                    Console.WriteLine(" " + numOfRounds5 + " SHA1: " + Convert.ToBase64String(Rfc5SHA1));
-                    Console.WriteLine(" " + numOfRounds6 + " SHA1: " + Convert.ToBase64String(Rfc6SHA1));
-                    Console.WriteLine(" " + numOfRounds7 + " SHA1: " + Convert.ToBase64String(Rfc7SHA1));
-                    Console.WriteLine(" " + numOfRounds8 + " SHA1: " + Convert.ToBase64String(Rfc8SHA1));
-                    Console.WriteLine(" " + numOfRounds9 + " SHA1: " + Convert.ToBase64String(Rfc9SHA1));
+                    Console.WriteLine(numOfRounds0 + " SHA1: " + Convert.ToBase64String(Rfc0SHA1));
+                    Console.WriteLine(numOfRounds1 + " SHA1: " + Convert.ToBase64String(Rfc1SHA1));
+                    Console.WriteLine(numOfRounds2 + " SHA1: " + Convert.ToBase64String(Rfc2SHA1));
+                    Console.WriteLine(numOfRounds3 + " SHA1: " + Convert.ToBase64String(Rfc3SHA1));
+                    Console.WriteLine(numOfRounds4 + " SHA1: " + Convert.ToBase64String(Rfc4SHA1));
+                    Console.WriteLine(numOfRounds5 + " SHA1: " + Convert.ToBase64String(Rfc5SHA1));
+                    Console.WriteLine(numOfRounds6 + " SHA1: " + Convert.ToBase64String(Rfc6SHA1));
+                    Console.WriteLine(numOfRounds7 + " SHA1: " + Convert.ToBase64String(Rfc7SHA1));
+                    Console.WriteLine(numOfRounds8 + " SHA1: " + Convert.ToBase64String(Rfc8SHA1));
+                    Console.WriteLine(numOfRounds9 + " SHA1: " + Convert.ToBase64String(Rfc9SHA1));
                     Console.WriteLine();
                     Console.WriteLine(" Iterations <" + numOfRounds0 + ">, Elapsed Time: " + time0SHA1);
                     Console.WriteLine(" Iterations <" + numOfRounds1 + ">, Elapsed Time: " + time1SHA1);
@@ -270,16 +264,16 @@ namespace lab5
                     });
 
                     
-                    Console.WriteLine(" " + numOfRounds0 + " SHA256: " + Convert.ToBase64String(Rfc0SHA256));
-                    Console.WriteLine(" " + numOfRounds1 + " SHA256: " + Convert.ToBase64String(Rfc1SHA256));
-                    Console.WriteLine(" " + numOfRounds2 + " SHA256: " + Convert.ToBase64String(Rfc2SHA256));
-                    Console.WriteLine(" " + numOfRounds3 + " SHA256: " + Convert.ToBase64String(Rfc3SHA256));
-                    Console.WriteLine(" " + numOfRounds4 + " SHA256: " + Convert.ToBase64String(Rfc4SHA256));
-                    Console.WriteLine(" " + numOfRounds5 + " SHA256: " + Convert.ToBase64String(Rfc5SHA256));
-                    Console.WriteLine(" " + numOfRounds6 + " SHA256: " + Convert.ToBase64String(Rfc6SHA256));
-                    Console.WriteLine(" " + numOfRounds7 + " SHA256: " + Convert.ToBase64String(Rfc7SHA256));
-                    Console.WriteLine(" " + numOfRounds8 + " SHA256: " + Convert.ToBase64String(Rfc8SHA256));
-                    Console.WriteLine(" " + numOfRounds9 + " SHA256: " + Convert.ToBase64String(Rfc9SHA256));
+                    Console.WriteLine(numOfRounds0 + " SHA256: " + Convert.ToBase64String(Rfc0SHA256));
+                    Console.WriteLine(numOfRounds1 + " SHA256: " + Convert.ToBase64String(Rfc1SHA256));
+                    Console.WriteLine(numOfRounds2 + " SHA256: " + Convert.ToBase64String(Rfc2SHA256));
+                    Console.WriteLine(numOfRounds3 + " SHA256: " + Convert.ToBase64String(Rfc3SHA256));
+                    Console.WriteLine(numOfRounds4 + " SHA256: " + Convert.ToBase64String(Rfc4SHA256));
+                    Console.WriteLine(numOfRounds5 + " SHA256: " + Convert.ToBase64String(Rfc5SHA256));
+                    Console.WriteLine(numOfRounds6 + " SHA256: " + Convert.ToBase64String(Rfc6SHA256));
+                    Console.WriteLine(numOfRounds7 + " SHA256: " + Convert.ToBase64String(Rfc7SHA256));
+                    Console.WriteLine(numOfRounds8 + " SHA256: " + Convert.ToBase64String(Rfc8SHA256));
+                    Console.WriteLine(numOfRounds9 + " SHA256: " + Convert.ToBase64String(Rfc9SHA256));
                     Console.WriteLine();
                     Console.WriteLine(" Iterations <" + numOfRounds0 + ">, Elapsed Time: " + time0SHA256);
                     Console.WriteLine(" Iterations <" + numOfRounds1 + ">, Elapsed Time: " + time1SHA256);
@@ -345,16 +339,16 @@ namespace lab5
                     });
 
                     
-                    Console.WriteLine(" " + numOfRounds0 + " SHA384: " + Convert.ToBase64String(Rfc0SHA384));
-                    Console.WriteLine(" " + numOfRounds1 + " SHA384: " + Convert.ToBase64String(Rfc1SHA384));
-                    Console.WriteLine(" " + numOfRounds2 + " SHA384: " + Convert.ToBase64String(Rfc2SHA384));
-                    Console.WriteLine(" " + numOfRounds3 + " SHA384: " + Convert.ToBase64String(Rfc3SHA384));
-                    Console.WriteLine(" " + numOfRounds4 + " SHA384: " + Convert.ToBase64String(Rfc4SHA384));
-                    Console.WriteLine(" " + numOfRounds5 + " SHA384: " + Convert.ToBase64String(Rfc5SHA384));
-                    Console.WriteLine(" " + numOfRounds6 + " SHA384: " + Convert.ToBase64String(Rfc6SHA384));
-                    Console.WriteLine(" " + numOfRounds7 + " SHA384: " + Convert.ToBase64String(Rfc7SHA384));
-                    Console.WriteLine(" " + numOfRounds8 + " SHA384: " + Convert.ToBase64String(Rfc8SHA384));
-                    Console.WriteLine(" " + numOfRounds9 + " SHA384: " + Convert.ToBase64String(Rfc9SHA384));
+                    Console.WriteLine(numOfRounds0 + " SHA384: " + Convert.ToBase64String(Rfc0SHA384));
+                    Console.WriteLine(numOfRounds1 + " SHA384: " + Convert.ToBase64String(Rfc1SHA384));
+                    Console.WriteLine(numOfRounds2 + " SHA384: " + Convert.ToBase64String(Rfc2SHA384));
+                    Console.WriteLine(numOfRounds3 + " SHA384: " + Convert.ToBase64String(Rfc3SHA384));
+                    Console.WriteLine(numOfRounds4 + " SHA384: " + Convert.ToBase64String(Rfc4SHA384));
+                    Console.WriteLine(numOfRounds5 + " SHA384: " + Convert.ToBase64String(Rfc5SHA384));
+                    Console.WriteLine(numOfRounds6 + " SHA384: " + Convert.ToBase64String(Rfc6SHA384));
+                    Console.WriteLine(numOfRounds7 + " SHA384: " + Convert.ToBase64String(Rfc7SHA384));
+                    Console.WriteLine(numOfRounds8 + " SHA384: " + Convert.ToBase64String(Rfc8SHA384));
+                    Console.WriteLine(numOfRounds9 + " SHA384: " + Convert.ToBase64String(Rfc9SHA384));
                     Console.WriteLine();
                     Console.WriteLine(" Iterations <" + numOfRounds0 + ">, Elapsed Time: " + time0SHA384);
                     Console.WriteLine(" Iterations <" + numOfRounds1 + ">, Elapsed Time: " + time1SHA384);
@@ -419,16 +413,16 @@ namespace lab5
                         PBKDF2.HashPassword(passwordInArray, saltSHA512, numOfRounds9, saltLengthSHA512);
                     });
 
-                    Console.WriteLine(" " + numOfRounds0 + " SHA512: " + Convert.ToBase64String(Rfc0SHA512));
-                    Console.WriteLine(" " + numOfRounds1 + " SHA512: " + Convert.ToBase64String(Rfc1SHA512));
-                    Console.WriteLine(" " + numOfRounds2 + " SHA512: " + Convert.ToBase64String(Rfc2SHA512));
-                    Console.WriteLine(" " + numOfRounds3 + " SHA512: " + Convert.ToBase64String(Rfc3SHA512));
-                    Console.WriteLine(" " + numOfRounds4 + " SHA512: " + Convert.ToBase64String(Rfc4SHA512));
-                    Console.WriteLine(" " + numOfRounds5 + " SHA512: " + Convert.ToBase64String(Rfc5SHA512));
-                    Console.WriteLine(" " + numOfRounds6 + " SHA512: " + Convert.ToBase64String(Rfc6SHA512));
-                    Console.WriteLine(" " + numOfRounds7 + " SHA512: " + Convert.ToBase64String(Rfc7SHA512));
-                    Console.WriteLine(" " + numOfRounds8 + " SHA512: " + Convert.ToBase64String(Rfc8SHA512));
-                    Console.WriteLine(" " + numOfRounds9 + " SHA512: " + Convert.ToBase64String(Rfc9SHA512));
+                    Console.WriteLine(numOfRounds0 + " SHA512: " + Convert.ToBase64String(Rfc0SHA512));
+                    Console.WriteLine(numOfRounds1 + " SHA512: " + Convert.ToBase64String(Rfc1SHA512));
+                    Console.WriteLine(numOfRounds2 + " SHA512: " + Convert.ToBase64String(Rfc2SHA512));
+                    Console.WriteLine(numOfRounds3 + " SHA512: " + Convert.ToBase64String(Rfc3SHA512));
+                    Console.WriteLine(numOfRounds4 + " SHA512: " + Convert.ToBase64String(Rfc4SHA512));
+                    Console.WriteLine(numOfRounds5 + " SHA512: " + Convert.ToBase64String(Rfc5SHA512));
+                    Console.WriteLine(numOfRounds6 + " SHA512: " + Convert.ToBase64String(Rfc6SHA512));
+                    Console.WriteLine(numOfRounds7 + " SHA512: " + Convert.ToBase64String(Rfc7SHA512));
+                    Console.WriteLine(numOfRounds8 + " SHA512: " + Convert.ToBase64String(Rfc8SHA512));
+                    Console.WriteLine(numOfRounds9 + " SHA512: " + Convert.ToBase64String(Rfc9SHA512));
                     Console.WriteLine();
                     Console.WriteLine(" Iterations <" + numOfRounds0 + ">, Elapsed Time: " + time0SHA512);
                     Console.WriteLine(" Iterations <" + numOfRounds1 + ">, Elapsed Time: " + time1SHA512);
